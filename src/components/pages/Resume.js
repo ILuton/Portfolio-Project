@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Blog() {
+export default function Resume() {
 
   const styles = {
     containerStyle: {
@@ -10,7 +10,7 @@ export default function Blog() {
   }
   return (
     <section style={styles.containerStyle} >
-      <h1>Blog Page</h1>
+      <h1>Resume Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
