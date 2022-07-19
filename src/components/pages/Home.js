@@ -11,7 +11,7 @@ export default function Home() {
   }
   
   return (
-    <div style={styles.containerStyle}>
+    <section style={styles.containerStyle}>
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
@@ -25,6 +25,6 @@ export default function Home() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
-    </div>
+    </section>
   );
 }

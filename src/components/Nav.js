@@ -1,4 +1,5 @@
 import React from 'react';
+import NavProfile from "./NavProfile";
 
 function Nav({ currentPage, handlePageChange }) {
 
@@ -11,7 +12,8 @@ function Nav({ currentPage, handlePageChange }) {
     }}
     
   return (
-    <div style={styles.navStyles}>
+    <header style={styles.navStyles}>
+      <NavProfile />
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -58,7 +60,7 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
-    </div>
+    </header>
   );
 }
 

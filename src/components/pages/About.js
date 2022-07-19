@@ -8,7 +8,7 @@ export default function About() {
     }
   }
   return (
-    <div style={styles.containerStyle}>
+    <section style={styles.containerStyle}>
       <h1>About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
@@ -18,6 +18,6 @@ export default function About() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
-    </div>
+    </section>
   );
 }

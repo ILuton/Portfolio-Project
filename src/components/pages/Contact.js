@@ -9,7 +9,7 @@ export default function Contact() {
     }
   }
   return (
-    <div style={styles.containerStyle}>
+    <section style={styles.containerStyle}>
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
@@ -24,6 +24,6 @@ export default function Contact() {
         conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
       </p>
-    </div>
+    </section>
   );
 }

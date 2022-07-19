@@ -9,7 +9,7 @@ export default function Blog() {
     }
   }
   return (
-    <div style={styles.containerStyle} >
+    <section style={styles.containerStyle} >
       <h1>Blog Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
@@ -26,6 +26,6 @@ export default function Blog() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
-    </div>
+    </section>
   );
 }
