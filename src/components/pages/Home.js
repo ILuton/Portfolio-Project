@@ -1,8 +1,17 @@
 import React from 'react';
 
+
 export default function Home() {
+
+  const styles = {
+    containerStyle: {
+      height: "700px",
+      width: "85%",
+    }
+  }
+  
   return (
-    <div>
+    <div style={styles.containerStyle}>
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque

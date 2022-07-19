@@ -1,8 +1,14 @@
 import React from 'react';
 
 export default function About() {
+  const styles = {
+    containerStyle: {
+      height: "700px",
+      width: "85%",
+    }
+  }
   return (
-    <div>
+    <div style={styles.containerStyle}>
       <h1>About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

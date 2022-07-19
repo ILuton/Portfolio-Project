@@ -12,9 +12,11 @@ export default function PortfolioContainer() {
     // styles
 
     const styles={
-        pageStyles : {
+        mainStyles : {
             display: "flex",
+            justifyContent: "space-between",
         }
+
     }
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -34,7 +36,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div style={styles.pageStyles}>
+    <div style={styles.mainStyles}>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

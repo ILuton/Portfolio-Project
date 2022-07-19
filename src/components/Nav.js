@@ -1,7 +1,17 @@
 import React from 'react';
 
 function Nav({ currentPage, handlePageChange }) {
+
+    const styles = {
+        navStyles: {
+        width: "15%",
+        height: "700px",
+        display: "flex",
+        flexDirection: "column",
+    }}
+    
   return (
+    <div style={styles.navStyles}>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -48,6 +58,7 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

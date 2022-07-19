@@ -1,8 +1,15 @@
 import React from 'react';
 
 export default function Contact() {
+
+  const styles = {
+    containerStyle: {
+      height: "700px",
+      width: "85%",
+    }
+  }
   return (
-    <div>
+    <div style={styles.containerStyle}>
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
