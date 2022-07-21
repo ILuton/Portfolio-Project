@@ -1,30 +1,43 @@
 import React from 'react';
+import aboutBackground  from "../../images/aboutBackground.jpeg";
 
 
 export default function About() {
 
   const styles = {
     containerStyle: {
-      height: "700px",
+      height: "100vh",
       width: "85%",
+      backgroundImage: `url(${aboutBackground})`,
+      backgroundSize: "cover",
     }
   }
   
   return (
     <section style={styles.containerStyle}>
       <h1>About Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <div>
+        <p>
+          <span>Hello.</span> My name is Isaac. I am currently on my way to becoming a Web
+          Developer. After graduating from Washington State University, I
+          launched my career in healthcare - doubling as a Personal Trainer and
+          Physical Therapy Tech. Soon, I discovered a passion in building web
+          pages and took a leap to learn more with entry into the University of
+          Washington Coding Bootcamp. I am excited to continue broadening my
+          knowledge and skillset to build web design products.
+        </p>
+        <ul>
+          <li><strong>Born: </strong>Seattle, WA</li>
+          <li>
+            <strong>Hobbies: </strong>You can typically find me lifting weights
+            at the gym or trying my hand at making pizza
+          </li>
+          <li>
+            <strong>Dream job: </strong>Running a dog rescue farm and being a
+           front-end web developer
+          </li>
+        </ul>
+      </div>
     </section>
   );
 }
