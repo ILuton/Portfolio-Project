@@ -6,8 +6,8 @@ import profilepic from "../images/profilepic.jpg";
 const NavProfile = () => {
   const styles = {
     imgStyle: {
-      width: "120px",
-      height: "213px",
+      width: "138px",
+      height: "245px",
       marginTop: "10px",
       borderRadius: "10px",
     },
@@ -17,8 +17,13 @@ const NavProfile = () => {
       justifyContent: "center",
       alignItems: "center",
     },
-    githubStyle: {
-      color: "red",
+    linkedInStyle: {
+      color: "#0b65c2",
+    
+    },
+    gitHubStyle: {
+      color: "white",
+    
     },
   };
   return (
@@ -28,16 +33,29 @@ const NavProfile = () => {
         alt="Portfolio author Isaac Luton."
         style={styles.imgStyle}
       ></img>
-      <a href="https://github.com/ILuton" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faGithub} size="3x"></FontAwesomeIcon>
-      </a>
-      <a href="http://www.linkedin.com/in/ILuton" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon
-          icon={faLinkedin}
-          size="3x"
-          style={styles.githubStyle}
-        ></FontAwesomeIcon>
-      </a>
+      <div>
+        <a
+          href="https://github.com/ILuton"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={styles.gitHubStyle}
+        >
+          <FontAwesomeIcon icon={faGithub} size="3x"></FontAwesomeIcon>
+        </a>
+        <a
+          href="http://www.linkedin.com/in/ILuton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            icon={faLinkedin}
+            size="3x"
+            style={styles.linkedInStyle}
+          ></FontAwesomeIcon>
+        </a>
+      </div>
+      <div>
+      </div>
     </div>
   );
 };

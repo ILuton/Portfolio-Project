@@ -1,33 +1,30 @@
 import React, { useState } from "react";
-import Nav from './Nav';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
-
+import Nav from "./Nav";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
 
 // useState function to set the default render to home
 export default function PortfolioContainer() {
+  // styles
 
-    // styles
-
-    const styles={
-        mainStyles : {
-            display: "flex",
-            justifyContent: "space-between",
-        }
-
+  const styles = {
+    mainStyles: {
+      display: "flex",
+      justifyContent: "space-between",
     }
-  const [currentPage, setCurrentPage] = useState('About');
+  };
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
-    if (currentPage === 'About') {
+    if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === 'Portfolio') {
+    if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
-    if (currentPage === 'Resume') {
+    if (currentPage === "Resume") {
       return <Resume />;
     }
     return <Contact />;
@@ -37,7 +34,7 @@ export default function PortfolioContainer() {
 
   return (
     <div style={styles.mainStyles}>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
     </div>
   );

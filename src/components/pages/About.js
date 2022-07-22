@@ -11,27 +11,29 @@ export default function About() {
       borderLeft: "2px solid black",
     },
     fontStyle: {
-      fontFamily: "Acme, sans-serif",
-      margin: "80px",
-      fontSize: "25px"
+      margin: "150px",
+      fontSize: "25px",
     },
   };
 
   return (
     <section style={styles.containerStyle}>
       <div style={styles.fontStyle}>
+        <h1>Hello! My name is Isaac.</h1>
         <p>
-          Hello! My name is Isaac. I am a Seattle based full stack Web Developer. After graduating from Washington State
-          University, I launched my career in healthcare - doubling as a
-          Personal Trainer and Physical Therapy Tech. Soon, I discovered a
-          passion in building web pages and took a leap to learn more with entry
-          into the University of Washington Coding Bootcamp. I am excited to
-          continue broadening my knowledge and skillset to build and design web applications. 
+          I am a Seattle based full stack Web Developer. After graduating from
+          Washington State University, I launched my career in healthcare -
+          doubling as a Personal Trainer and Physical Therapy Tech. Soon, I
+          discovered a passion in building web pages and took a leap to learn
+          more with entry into the University of Washington Coding Bootcamp. I
+          am excited to continue broadening my knowledge and skillset to build
+          and design web applications.
         </p>
         <ul>
           <li>
             <strong>Hobbies: </strong>You can typically find me lifting weights
-            at the gym, enjoying the great oudoors of the PNW, or trying my hand at making pizza
+            at the gym, enjoying the great oudoors of the PNW, or trying my hand
+            at making pizza
           </li>
           <li>
             <strong>Dream job: </strong>Running a dog rescue farm and being a
