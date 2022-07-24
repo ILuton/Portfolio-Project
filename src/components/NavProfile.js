@@ -8,8 +8,8 @@ const NavProfile = () => {
     imgStyle: {
       width: "138px",
       height: "245px",
-      marginTop: "10px",
       borderRadius: "10px",
+      marginTop: "5px"
     },
     containerStyle: {
       display: "flex",
@@ -19,11 +19,15 @@ const NavProfile = () => {
     },
     linkedInStyle: {
       color: "#0b65c2",
-    
     },
     gitHubStyle: {
-      color: "white",
-    
+      color: "black",
+    },
+    linksDiv: {
+      marginTop: "10px",
+      display: "flex",
+      justifyContent: "space-around",
+      width: "138px"
     },
   };
   return (
@@ -33,7 +37,7 @@ const NavProfile = () => {
         alt="Portfolio author Isaac Luton."
         style={styles.imgStyle}
       ></img>
-      <div>
+      <div style={styles.linksDiv}>
         <a
           href="https://github.com/ILuton"
           target="_blank"
@@ -54,8 +58,7 @@ const NavProfile = () => {
           ></FontAwesomeIcon>
         </a>
       </div>
-      <div>
-      </div>
+      <div></div>
     </div>
   );
 };

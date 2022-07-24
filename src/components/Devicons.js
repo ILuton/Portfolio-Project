@@ -6,9 +6,9 @@ const Devicons = () => {
         devStyles: {
             display: "flex",
             flexWrap: "wrap",
-            height: "25%",
             width: "100%",
-            justifyContent: "center"
+            justifyContent: "center",
+            alignItems: "end",
         }
     }
   return (

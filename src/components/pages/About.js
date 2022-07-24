@@ -29,17 +29,16 @@ export default function About() {
           am excited to continue broadening my knowledge and skillset to build
           and design web applications.
         </p>
-        <ul>
-          <li>
-            <strong>Hobbies: </strong>You can typically find me lifting weights
-            at the gym, enjoying the great oudoors of the PNW, or trying my hand
-            at making pizza
-          </li>
-          <li>
-            <strong>Dream job: </strong>Running a dog rescue farm and being a
-            front-end web developer
-          </li>
-        </ul>
+
+        <p>
+          <strong>Hobbies: </strong>You can typically find me lifting weights at
+          the gym, enjoying the great oudoors of the PNW, or trying my hand at
+          making pizza
+        </p>
+        <p>
+          <strong>Dream job: </strong>Running a dog rescue farm and being a
+          front-end web developer
+        </p>
       </div>
     </section>
   );

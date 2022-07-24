@@ -17,7 +17,6 @@ code {
 }
 
 a,
-a:hover,
 a:focus,
 a:active {
   text-decoration: none;
@@ -25,7 +24,17 @@ a:active {
   cursor: pointer;
 }
 
+a:hover,
+li:hover {
+  transform: scale(1.2);
+}
+
 i {
-  font-size: 85px;
+  font-size: 50px;
   margin: 5px;
+}
+
+.nav-item {
+  margin-bottom: 20px;
+  text-decoration: underline;
 }
