@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import React from "react";
 import profilepic from "../images/profilepic.jpg";
 
 const NavProfile = () => {
@@ -9,7 +8,7 @@ const NavProfile = () => {
       width: "138px",
       height: "245px",
       borderRadius: "10px",
-      marginTop: "5px"
+      marginTop: "5px",
     },
     containerStyle: {
       display: "flex",
@@ -27,7 +26,7 @@ const NavProfile = () => {
       marginTop: "10px",
       display: "flex",
       justifyContent: "space-around",
-      width: "138px"
+      width: "138px",
     },
   };
   return (

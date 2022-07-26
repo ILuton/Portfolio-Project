@@ -5,15 +5,12 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
-// useState function to set the default render to home
 export default function PortfolioContainer() {
-  // styles
-
   const styles = {
     mainStyles: {
       display: "flex",
       justifyContent: "space-between",
-    }
+    },
   };
   const [currentPage, setCurrentPage] = useState("About");
 
@@ -34,7 +31,7 @@ export default function PortfolioContainer() {
 
   return (
     <div style={styles.mainStyles}>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
   );

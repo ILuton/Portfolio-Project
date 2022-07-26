@@ -1,4 +1,3 @@
-
 import resumePdf from "../../images/resume.pdf";
 
 export default function Resume() {

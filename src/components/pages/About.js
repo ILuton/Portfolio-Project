@@ -1,4 +1,3 @@
-import React from "react";
 import aboutBackground from "../../images/aboutBackground.jpeg";
 
 export default function About() {

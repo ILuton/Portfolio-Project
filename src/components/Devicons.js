@@ -1,16 +1,15 @@
 import React from "react";
 
 const Devicons = () => {
-
-    const styles = {
-        devStyles: {
-            display: "flex",
-            flexWrap: "wrap",
-            width: "100%",
-            justifyContent: "center",
-            alignItems: "end",
-        }
-    }
+  const styles = {
+    devStyles: {
+      display: "flex",
+      flexWrap: "wrap",
+      width: "100%",
+      justifyContent: "center",
+      alignItems: "end",
+    },
+  };
   return (
     <div style={styles.devStyles}>
       <i className="devicon-javascript-plain colored"></i>
