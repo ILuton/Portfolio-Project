@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.215ae082.css",
-    "main.js": "/static/js/main.860335c4.js",
-    "static/media/profilepic.jpg": "/static/media/profilepic.bdf5a90e96c581ed0784.jpg",
-    "static/media/aboutBackground.jpeg": "/static/media/aboutBackground.91eea6c09b1d51c00d1c.jpeg",
-    "static/media/tech.png": "/static/media/tech.14312bf5960ec0c163c4.png",
-    "static/media/devise.png": "/static/media/devise.69ec54c878e548c59fe4.png",
-    "static/media/zenten.png": "/static/media/zenten.1eb273e7950c2c601c1e.png",
-    "static/media/weather.png": "/static/media/weather.389d6df25ece50bcb51e.png",
-    "static/media/scheduler.png": "/static/media/scheduler.446c138c49d406d7d91c.png",
-    "static/media/generator.png": "/static/media/generator.ea54f97396c0b67b274c.png",
-    "static/media/resume.pdf": "/static/media/resume.434823c1d8d6d7e79cdb.pdf",
-    "index.html": "/index.html",
-    "main.215ae082.css.map": "/static/css/main.215ae082.css.map",
-    "main.860335c4.js.map": "/static/js/main.860335c4.js.map"
+    "main.css": "/ILuton/Portfolio-Project/static/css/main.215ae082.css",
+    "main.js": "/ILuton/Portfolio-Project/static/js/main.111fc280.js",
+    "static/media/profilepic.jpg": "/ILuton/Portfolio-Project/static/media/profilepic.bdf5a90e96c581ed0784.jpg",
+    "static/media/aboutBackground.jpeg": "/ILuton/Portfolio-Project/static/media/aboutBackground.91eea6c09b1d51c00d1c.jpeg",
+    "static/media/tech.png": "/ILuton/Portfolio-Project/static/media/tech.14312bf5960ec0c163c4.png",
+    "static/media/devise.png": "/ILuton/Portfolio-Project/static/media/devise.69ec54c878e548c59fe4.png",
+    "static/media/zenten.png": "/ILuton/Portfolio-Project/static/media/zenten.1eb273e7950c2c601c1e.png",
+    "static/media/weather.png": "/ILuton/Portfolio-Project/static/media/weather.389d6df25ece50bcb51e.png",
+    "static/media/scheduler.png": "/ILuton/Portfolio-Project/static/media/scheduler.446c138c49d406d7d91c.png",
+    "static/media/generator.png": "/ILuton/Portfolio-Project/static/media/generator.ea54f97396c0b67b274c.png",
+    "static/media/resume.pdf": "/ILuton/Portfolio-Project/static/media/resume.434823c1d8d6d7e79cdb.pdf",
+    "index.html": "/ILuton/Portfolio-Project/index.html",
+    "main.215ae082.css.map": "/ILuton/Portfolio-Project/static/css/main.215ae082.css.map",
+    "main.111fc280.js.map": "/ILuton/Portfolio-Project/static/js/main.111fc280.js.map"
   },
   "entrypoints": [
     "static/css/main.215ae082.css",
-    "static/js/main.860335c4.js"
+    "static/js/main.111fc280.js"
   ]
 }
