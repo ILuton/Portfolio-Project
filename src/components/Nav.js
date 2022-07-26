@@ -11,16 +11,15 @@ function Nav({ currentPage, handlePageChange }) {
       backgroundColor: "#666666",
     },
     navItemStyle: {
-      fontSize: "35px",
+      fontSize: "30px",
       color: "white",
       listStyle: "none",
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      padding: "0px",
-      marginBottom: "80px",
-    },
+      padding: "0px", 
+    marginBottom: "5px"},
   };
 
   return (

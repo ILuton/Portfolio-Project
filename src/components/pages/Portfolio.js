@@ -10,11 +10,12 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function Portfolio() {
   const styles = {
     containerStyle: {
-      height: "700px",
+      height: "100vh",
       width: "85%",
       display: "flex",
       flexWrap: "wrap",
       justifyContent: "center",
+      overflow: "scroll"
     },
     projectTitleStyle: {
       display: "flex",
