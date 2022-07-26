@@ -24,7 +24,7 @@ Can be run locally by cloning the repoinstalling all the dependencies and runnin
 ## Usage
 Can Be seen at the following link: https://iluton.github.io/Portfolio-Project/
 
-![alt text](src/images/readme.png))
+![alt text](src/images/readme.png)
 
 ## Credits
 Just Myself
