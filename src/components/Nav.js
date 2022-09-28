@@ -41,9 +41,6 @@ function Nav({ currentPage, handlePageChange }) {
             Resume
           </a>
         </li>
-        <li className="nav-item">
-          <a href="#contact" onClick={() => handlePageChange("Contact")}>Contact</a>
-        </li>
       </ul>
       <Devicons></Devicons>
     </header>
