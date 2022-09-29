@@ -37,7 +37,7 @@ const NavProfile = () => {
         style={styles.imgStyle}
       ></img>
       <div style={styles.linksDiv}>
-        <a
+        <a className="socialLinks"
           href="https://github.com/ILuton"
           target="_blank"
           rel="noopener noreferrer"
@@ -45,7 +45,7 @@ const NavProfile = () => {
         >
           <FontAwesomeIcon icon={faGithub} size="3x"></FontAwesomeIcon>
         </a>
-        <a
+        <a className="socialLinks"
           href="http://www.linkedin.com/in/ILuton"
           target="_blank"
           rel="noopener noreferrer"

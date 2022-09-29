@@ -24,20 +24,43 @@ a:active {
   cursor: pointer;
 }
 
-a:hover,
-li:hover {
-  transform: scale(1.2);
-}
-
 i {
   font-size: 50px;
   margin: 5px;
 }
 
-.nav-item {
-  margin-bottom: 20px;
-  text-decoration: underline;
-}
+.navLink {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navLink:before {
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+  }
+
+  .navLink:hover {
+    background-position: 0;
+   }
+
+   .navLink::before {
+    width: 100%;
+  }
 
 input {
   height: 30px
@@ -62,4 +85,8 @@ main img:hover{
 
 .projectTitle {
   display: flex
+}
+
+.socialLinks:hover {
+  transform: scale(1.3);
 }

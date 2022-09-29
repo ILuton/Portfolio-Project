@@ -27,17 +27,17 @@ function Nav({ currentPage, handlePageChange }) {
       <NavProfile />
       <ul className="nav nav-tabs" style={styles.navItemStyle}>
         <li className="nav-item">
-          <a href="#about" onClick={() => handlePageChange("About")}>
+          <a className="navLink" href="#about" onClick={() => handlePageChange("About")}>
             About
           </a>
         </li>
         <li className="nav-item">
-          <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
+          <a className="navLink" href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
             Portfolio
           </a>
         </li>
         <li className="nav-item">
-          <a href="#resume" onClick={() => handlePageChange("Resume")}>
+          <a className="navLink"href="#resume" onClick={() => handlePageChange("Resume")}>
             Resume
           </a>
         </li>
