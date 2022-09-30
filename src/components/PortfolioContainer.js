@@ -9,6 +9,7 @@ export default function PortfolioContainer() {
     mainStyles: {
       display: "flex",
       justifyContent: "space-between",
+      height: "100%",
     },
   };
   const [currentPage, setCurrentPage] = useState("About");
