@@ -7,11 +7,10 @@ export default function About() {
       width: "85%",
       backgroundImage: `url(${aboutBackground})`,
       backgroundSize: "cover",
-      borderLeft: "2px solid black",
     },
     fontStyle: {
-      margin: "150px",
-      fontSize: "25px",
+      margin: "5rem",
+      fontSize: "1.4rem",
     },
   };
 
@@ -33,10 +32,6 @@ export default function About() {
           <strong>Hobbies: </strong>You can typically find me lifting weights at
           the gym, enjoying the great oudoors of the PNW, or trying my hand at
           making pizza
-        </p>
-        <p>
-          <strong>Dream job: </strong>Running a dog rescue farm and being a
-          front-end web developer
         </p>
       </div>
     </section>

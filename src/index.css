@@ -36,6 +36,7 @@ i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
 }
 
 .navLink:before {
@@ -58,11 +59,11 @@ i {
 }
 
 main img {
-  height: 25vh;
-  width: 30vh;
+  height: 23vh;
+  width: 26vh;
   border: 5px solid black;
-  filter: drop-shadow(15px 5px 8px black);
-  border-radius: 5%;
+  filter: drop-shadow(2px 5px 5px black);
+  border-radius: 12%;
   margin: 15px;
 }
 
@@ -75,10 +76,11 @@ main img:hover {
 }
 
 .mainPortfolio {
-  background-color: gray;
+  background-image: url("./images/portfoliobackground.JPG");
   width: 85%;
   height: 100%;
   display: flex;
+  background-size: cover;
 }
 
 .portfolioContainer {
@@ -111,3 +113,9 @@ main img:hover {
   flex-wrap: wrap;
 }
 
+.skills {
+  align-items: center;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}

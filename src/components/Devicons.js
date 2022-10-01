@@ -27,8 +27,6 @@ const Devicons = () => {
       <i className="devicon-html5-plain-wordmark colored"></i>
 
       <i className="devicon-handlebars-plain-wordmark colored"></i>
-
-      <i className="devicon-graphql-plain-wordmark colored"></i>
     </div>
   );
 };
