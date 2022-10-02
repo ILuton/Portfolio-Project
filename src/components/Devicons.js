@@ -7,7 +7,7 @@ const Devicons = () => {
       flexWrap: "wrap",
       width: "100%",
       justifyContent: "center",
-      marginBottom: ".5rem"
+      marginBottom: ".1rem"
     },
   };
   return (

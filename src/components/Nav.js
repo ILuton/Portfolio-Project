@@ -16,7 +16,7 @@ function Nav({ currentPage, handlePageChange }) {
       overflow: "auto"
     },
     navItemStyle: {
-      fontSize: "2.1rem",
+      fontSize: "1.5rem",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",

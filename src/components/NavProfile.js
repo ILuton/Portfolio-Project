@@ -8,6 +8,7 @@ const NavProfile = () => {
       height: "245px",
       borderRadius: "10px",
       border: "2px solid black",
+      marginTop: "10px"
     },
     containerStyle: {
       display: "flex",

@@ -1,6 +1,6 @@
 import zenten from "../../images/zenten.png";
 import weather from "../../images/weather.png";
-import generator from "../../images/generator.png";
+import jate from "../../images/jate.png";
 import scheduler from "../../images/scheduler.png";
 import devise from "../../images/devise.png";
 import tech from "../../images/tech.png";
@@ -75,13 +75,13 @@ export default function Portfolio() {
           </a>
 
           <a
-            href="https://iluton.github.io/Password-Generator/"
+            href="https://peaceful-sands-84264.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               className="projectImage"
-              src={generator}
+              src={jate}
               alt="password input box with binary code behind"
             />
           </a>

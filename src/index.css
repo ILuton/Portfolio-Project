@@ -24,7 +24,7 @@ i {
 }
 
 .navLink {
-  background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
+  background-image: linear-gradient(to right, #ffffff, #ffffff 50%, #000 50%);
   background-size: 200% 100%;
   background-position: -100%;
   -webkit-background-clip: text;
@@ -53,19 +53,19 @@ i {
 }
 
 main img {
-  height: 23vw;
+  height: 20vw;
   width: 23vw;
   border: 0.2rem solid black;
   filter: drop-shadow(3px 5px 5px rgb(0, 0, 0));
   border-radius: 13%;
   margin: 0.3rem;
 
-  max-height: 250px;
+  max-height: 240px;
   max-width: 275px;
 }
 
 main img:hover {
-  transform: scale(1.11);
+  transform: scale(1.05);
 }
 
 .socialLinks:hover {
@@ -78,6 +78,7 @@ main img:hover {
   height: 100%;
   display: flex;
   background-size: cover;
+  overflow: scroll;
 }
 
 .portfolioContainer {
@@ -108,6 +109,7 @@ main img:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 
 .skills {
