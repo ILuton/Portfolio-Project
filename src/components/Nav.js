@@ -1,10 +1,11 @@
 import Devicons from "./Devicons";
 import NavProfile from "./NavProfile";
+import Contact from "./Contact";
 
 function Nav({ currentPage, handlePageChange }) {
   const styles = {
     navStyles: {
-      width: "18%",
+      width: "19%",
       height: "100vh",
       display: "flex",
       flexDirection: "column",
@@ -14,44 +15,44 @@ function Nav({ currentPage, handlePageChange }) {
       borderRight: ".2rem solid black",
     },
     navItemStyle: {
-      fontSize: "2.2rem",
-      listStyle: "none",
+      fontSize: "2.1rem",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
-      marginBottom: "2.5rem",
-      marginTop: ".3rem"
     },
   };
 
   return (
     <header style={styles.navStyles}>
       <NavProfile />
-      <p className="nav nav-tabs" style={styles.navItemStyle}>
+      <div className="nav nav-tabs" style={styles.navItemStyle}>
         <a
           className="navLink"
           href="#about"
           onClick={() => handlePageChange("About")}
         >
-          About
+          <strong>About</strong>
         </a>
         <a
           className="navLink"
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
         >
-          Portfolio
+          <strong>Projects</strong>
         </a>
         <a
           className="navLink"
           href="#resume"
           onClick={() => handlePageChange("Resume")}
         >
-          Resume
+          <strong>Resume</strong>
         </a>
-      </p>
+      </div>
       <h3 className="skills">Skills</h3>
+
       <Devicons></Devicons>
+      <h3 className="skills">Contact</h3>
+      <Contact></Contact>
     </header>
   );
 }

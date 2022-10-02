@@ -4,12 +4,12 @@ export default function About() {
   const styles = {
     containerStyle: {
       height: "100vh",
-      width: "85%",
+      width: "81%",
       backgroundImage: `url(${aboutBackground})`,
       backgroundSize: "cover",
     },
     fontStyle: {
-      margin: "5rem",
+      margin: "7rem",
       fontSize: "1.4rem",
     },
   };
@@ -17,21 +17,19 @@ export default function About() {
   return (
     <section style={styles.containerStyle}>
       <div style={styles.fontStyle}>
-        <h1>Hello! My name is Isaac.</h1>
+        <h1>Hi! My name is Isaac.</h1>
         <p>
-          I am a Seattle based full stack Web Developer. After graduating from
+          I am a Seattle-based full stack Web Developer. After graduating from
           Washington State University, I launched my career in healthcare -
-          doubling as a Personal Trainer and Physical Therapy Tech. Soon, I
-          discovered a passion in building web pages and took a leap to learn
-          more with entry into the University of Washington Coding Bootcamp. I
-          am excited to continue broadening my knowledge and skillset to build
-          and design web applications.
+          doubling as a Personal Trainer and Physical Therapy Tech. I
+          discovered a passion for building and designing web pages and took the leap into the tech world. I started learning on my own and continued through the University of Washington Coding Bootcamp. I
+          am excited to expand my skillset while contributing to a web development team. 
         </p>
 
         <p>
-          <strong>Hobbies: </strong>You can typically find me lifting weights at
+          You can typically find me lifting weights at
           the gym, enjoying the great oudoors of the PNW, or trying my hand at
-          making pizza
+          making sourdough pizza.
         </p>
       </div>
     </section>
