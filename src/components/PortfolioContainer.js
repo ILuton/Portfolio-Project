@@ -5,13 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 
 export default function PortfolioContainer() {
-  const styles = {
-    mainStyles: {
-      display: "flex",
-      justifyContent: "space-between",
-      height: "100%",
-    },
-  };
+  
   const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
@@ -28,7 +22,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div style={styles.mainStyles}>
+    <div className="main">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

@@ -1,6 +1,5 @@
 * {
-  font-family: 'Open Sans', sans-serif;
-  
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -9,10 +8,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
 
 a,
 a:focus,
@@ -34,7 +30,7 @@ i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
-  margin-top: .4rem;
+  margin-top: 0.4rem;
 }
 
 .navLink:before {
@@ -57,12 +53,15 @@ i {
 }
 
 main img {
-  height: 23vh;
-  width: 26vh;
-  border: 5px solid black;
-  filter: drop-shadow(2px 5px 5px black);
-  border-radius: 12%;
-  margin: 15px;
+  height: 23vw;
+  width: 23vw;
+  border: 0.2rem solid black;
+  filter: drop-shadow(3px 5px 5px rgb(0, 0, 0));
+  border-radius: 13%;
+  margin: 0.3rem;
+
+  max-height: 250px;
+  max-width: 275px;
 }
 
 main img:hover {
@@ -117,5 +116,37 @@ main img:hover {
   border-bottom: 2px solid black;
   font-size: 1.3rem;
   width: 100%;
-  margin-bottom: .1rem;
+  margin-bottom: 0.1rem;
 }
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+
+@media screen and (min-device-width: 0px) and (max-device-width: 425px) { 
+
+  .main {
+    flex-direction: column;
+  }
+
+  .navHeader {
+    width: 100% !important;
+  }
+
+  .resumeCon{
+    width: 100% !important;
+  }
+
+  .aboutCon{
+    width: 100% !important;
+  }
+
+  .mainPortfolio {
+    width: 100%;
+  }
+
+}
+

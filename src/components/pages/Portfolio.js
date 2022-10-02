@@ -4,6 +4,7 @@ import generator from "../../images/generator.png";
 import scheduler from "../../images/scheduler.png";
 import devise from "../../images/devise.png";
 import tech from "../../images/tech.png";
+import stop from "../../images/stop.png";
 
 export default function Portfolio() {
   return (
@@ -21,20 +22,33 @@ export default function Portfolio() {
               alt="code refactor word mashup"
             />
           </a>
-
           <a
-            href="https://iluton.github.io/Password-Generator/"
+            href="https://devisehub.herokuapp.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="projectImage" src={devise} alt="react logo" />
+          </a>
+        </div>
+        <div className="portfolioTwo">
+          <a
+            href="https://github.com/levisgaragegroupinc/SHEEP"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="projectImage" src={stop} alt="stop website" />
+          </a>
+          <a
+            href="https://thawing-fortress-77603.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               className="projectImage"
-              src={generator}
-              alt="password input box with binary code behind"
+              src={tech}
+              alt="the word blog coming of of computer hardware"
             />
           </a>
-        </div>
-        <div className="portfolioTwo">
           <a
             href="https://iluton.github.io/Work-Day-Scheduler/"
             target="_blank"
@@ -46,7 +60,8 @@ export default function Portfolio() {
               alt="open day planner showing monday and tuesday"
             />
           </a>
-
+        </div>
+        <div className="portfolioThree">
           <a
             href="https://iluton.github.io/Weather-Dashboard/"
             target="_blank"
@@ -60,34 +75,14 @@ export default function Portfolio() {
           </a>
 
           <a
-            href="https://devisehub.herokuapp.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img className="projectImage" src={devise} alt="react logo" />
-          </a>
-        </div>
-        <div className="portfolioThree">
-          <a
-            href="https://thawing-fortress-77603.herokuapp.com/"
+            href="https://iluton.github.io/Password-Generator/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               className="projectImage"
-              src={tech}
-              alt="the word blog coming of of computer hardware"
-            />
-          </a>
-          <a
-            href="https://thawing-fortress-77603.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="projectImage"
-              src={tech}
-              alt="the word blog coming of of computer hardware"
+              src={generator}
+              alt="password input box with binary code behind"
             />
           </a>
         </div>

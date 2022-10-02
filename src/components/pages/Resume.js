@@ -9,7 +9,7 @@ export default function Resume() {
   };
 
   return (
-    <section style={styles.containerStyle}>
+    <section className="resumeCon" style={styles.containerStyle}>
         <object data={ resumePdf } type="application/pdf" width="100%" height="100%">
   </object>
      

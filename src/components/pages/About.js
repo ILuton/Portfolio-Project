@@ -7,6 +7,7 @@ export default function About() {
       width: "81%",
       backgroundImage: `url(${aboutBackground})`,
       backgroundSize: "cover",
+      overflow: "auto"
     },
     fontStyle: {
       margin: "7rem",
@@ -15,7 +16,7 @@ export default function About() {
   };
 
   return (
-    <section style={styles.containerStyle}>
+    <section className="aboutCon" style={styles.containerStyle}>
       <div style={styles.fontStyle}>
         <h1>Hi! My name is Isaac.</h1>
         <p>

@@ -13,6 +13,7 @@ function Nav({ currentPage, handlePageChange }) {
       justifyContent: "space-around",
       alignItems: "center",
       borderRight: ".2rem solid black",
+      overflow: "auto"
     },
     navItemStyle: {
       fontSize: "2.1rem",
@@ -23,9 +24,9 @@ function Nav({ currentPage, handlePageChange }) {
   };
 
   return (
-    <header style={styles.navStyles}>
+    <header className= "navHeader" style={styles.navStyles}>
       <NavProfile />
-      <div className="nav nav-tabs" style={styles.navItemStyle}>
+      <div style={styles.navItemStyle}>
         <a
           className="navLink"
           href="#about"
