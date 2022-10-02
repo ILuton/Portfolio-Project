@@ -32,7 +32,7 @@ export default function Portfolio() {
         </div>
         <div className="portfolioTwo">
           <a
-            href="https://github.com/levisgaragegroupinc/SHEEP"
+            href="https://support-pandemic-obliteration.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
