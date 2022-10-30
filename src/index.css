@@ -23,6 +23,16 @@ i {
   margin: 5px;
 }
 
+.aboutText {
+  animation: color-change 41s infinite;
+}
+
+@keyframes color-change {
+  0% { color: rgb(255, 255, 255); }
+  50% { color: rgb(255, 255, 255); }
+  100% { color: rgb(24, 23, 23); }
+}
+
 .navLink {
   background-image: linear-gradient(to right, #ffffff, #ffffff 50%, #000 50%);
   background-size: 200% 100%;
@@ -73,8 +83,8 @@ main img:hover {
 }
 
 .mainPortfolio {
-  background-image: url("./images/portfoliobackground.JPG");
-  width: 81%;
+  background-image: url("./images/aboutBackground.jpeg");
+  width: 87%;
   height: 100%;
   display: flex;
   background-size: cover;

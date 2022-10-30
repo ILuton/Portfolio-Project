@@ -4,7 +4,7 @@ export default function Resume() {
   const styles = {
     containerStyle: {
       height: "100vh",
-      width: "81%",
+      width: "87%",
     },
   };
 

@@ -1,7 +1,5 @@
 import zenten from "../../images/zenten.png";
 import weather from "../../images/weather.png";
-import jate from "../../images/jate.png";
-import scheduler from "../../images/scheduler.png";
 import devise from "../../images/devise.png";
 import tech from "../../images/tech.png";
 import stop from "../../images/stop.png";
@@ -49,17 +47,6 @@ export default function Portfolio() {
               alt="the word blog coming of of computer hardware"
             />
           </a>
-          <a
-            href="https://iluton.github.io/Work-Day-Scheduler/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="projectImage"
-              src={scheduler}
-              alt="open day planner showing monday and tuesday"
-            />
-          </a>
         </div>
         <div className="portfolioThree">
           <a
@@ -74,17 +61,6 @@ export default function Portfolio() {
             />
           </a>
 
-          <a
-            href="https://peaceful-sands-84264.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="projectImage"
-              src={jate}
-              alt="password input box with binary code behind"
-            />
-          </a>
         </div>
       </div>
     </main>

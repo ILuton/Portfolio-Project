@@ -1,18 +1,16 @@
-import Devicons from "./Devicons";
 import NavProfile from "./NavProfile";
 import Contact from "./Contact";
 
 function Nav({ currentPage, handlePageChange }) {
   const styles = {
     navStyles: {
-      width: "19%",
+      width: "13%",
       height: "100vh",
       display: "flex",
       flexDirection: "column",
-      backgroundColor: "#666666",
+      backgroundColor: "#d9dddc",
       justifyContent: "space-around",
       alignItems: "center",
-      borderRight: ".2rem solid black",
       overflow: "auto"
     },
     navItemStyle: {
@@ -49,9 +47,6 @@ function Nav({ currentPage, handlePageChange }) {
           <strong>Resume</strong>
         </a>
       </div>
-      <h3 className="skills">Skills</h3>
-
-      <Devicons></Devicons>
       <h3 className="skills">Contact</h3>
       <Contact></Contact>
     </header>
