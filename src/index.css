@@ -40,7 +40,7 @@ i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
-  margin-top: 0.4rem;
+  margin-top: .8rem;
 }
 
 .navLink:before {
@@ -63,8 +63,8 @@ i {
 }
 
 main img {
-  height: 15vw;
-  width: 20vw;
+  height: 18vw;
+  width: 25vw;
   border: 0.2rem solid black;
   filter: drop-shadow(3px 5px 5px rgb(0, 0, 0));
   border-radius: 3%;
@@ -90,7 +90,7 @@ main img:hover {
 
 .portfolioContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;

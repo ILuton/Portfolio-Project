@@ -12,7 +12,7 @@ export default function About() {
     },
     fontStyle: {
       margin: "3rem",
-      fontSize: "1.4rem",
+      fontSize: "1.5vw"
     },
     videoDiv: {
       position: "fixed",
@@ -22,7 +22,12 @@ export default function About() {
 
     },
     videoStyle: {
-      width: "100%"
+      objectFit: "cover",
+      width: "100vw",
+      height: "100vh",
+      position: "fixed",
+      top: "0",
+      left: "0"
 
     }
 

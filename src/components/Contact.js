@@ -5,6 +5,7 @@ const Contact = () => {
     const styles = {
       linkedInStyle: {
         color: "#0b65c2",
+        fontSize:"2.5vw"
       },
       gitHubStyle: {
         color: "black",
@@ -25,8 +26,8 @@ const Contact = () => {
     return (
       <div style={styles.containerStyle}>
         <div style={styles.emailStyle}>
-          <p style={{marginTop: ".1rem", marginBottom: ".2rem"}}>Email:</p>
-          <p style={{marginTop: ".1rem", marginBottom: ".2rem" }}>isaacdluton@gmail.com</p>
+          <p style={{marginTop: ".5rem", marginBottom: ".2rem", fontSize:"1vw"}}>Email:</p>
+          <p style={{marginTop: ".1rem", marginBottom: ".2rem", fontSize:"1vw"}}>isaacdluton@gmail.com</p>
         </div>
         <div style={styles.linksDiv}>
           <a
@@ -36,7 +37,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             style={styles.gitHubStyle}
           >
-            <FontAwesomeIcon style={{marginRight: "1.5rem"}} icon={faGithub} size="3x"></FontAwesomeIcon>
+            <FontAwesomeIcon style={{marginRight: "1.5rem", fontSize:"2.5vw"}} icon={faGithub} size="3x"></FontAwesomeIcon>
           </a>
           <a
             className="socialLinks"

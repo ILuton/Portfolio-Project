@@ -8,22 +8,25 @@ function Nav({ currentPage, handlePageChange }) {
       height: "100vh",
       display: "flex",
       flexDirection: "column",
-      backgroundColor: "#d9dddc",
-      justifyContent: "space-around",
+      backgroundColor: "#999999",
       alignItems: "center",
       overflow: "auto"
     },
     navItemStyle: {
-      fontSize: "1.5rem",
+      fontSize: "2.5vw",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
+      marginTop: "1.5rem"
     },
   };
 
   return (
     <header className= "navHeader" style={styles.navStyles}>
+      <div>
       <NavProfile />
+      <Contact></Contact>
+      </div>
       <div style={styles.navItemStyle}>
         <a
           className="navLink"
@@ -47,8 +50,6 @@ function Nav({ currentPage, handlePageChange }) {
           <strong>Resume</strong>
         </a>
       </div>
-      <h3 className="skills">Contact</h3>
-      <Contact></Contact>
     </header>
   );
 }
