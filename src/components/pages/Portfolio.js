@@ -3,63 +3,58 @@ import weather from "../../images/weather.jpeg";
 import devise from "../../images/devise.jpeg";
 import tech from "../../images/tech.jpeg";
 import stop from "../../images/stop.jpeg";
+import projects from "../../projectsModel";
 
-export default function Portfolio() {
+import ReactCardFlip from "react-card-flip";
+import React from "react";
+
+const Card = ({ project }) => {
+  const [isFlipped, setIsFlipped] = React.useState(false);
+
+  const srcCheck = (name) => {
+    if (name === "zenten") {
+      return zenten;
+    } else if (name === "weather") {
+      return weather;
+    } else if (name === "devise") {
+      return devise;
+    } else if (name === "tech") {
+      return tech;
+    } else if (name === "stop") {
+      return stop;
+    } else {
+      return "error";
+    }
+  };
+
+  return (
+    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+      <div onMouseEnter={() => setIsFlipped((prev) => !prev)}>
+        <img
+          className="projectImage"
+          src={srcCheck(project.name)}
+          alt={project.name}
+        ></img>
+      </div>
+      <div className="projectInfo"onMouseLeave={() => setIsFlipped((prev) => !prev)}>
+      <h1>backside</h1>
+      </div>
+    </ReactCardFlip>
+  );
+};
+
+const Portfolio = () => {
   return (
     <main className="mainPortfolio">
       <div className="portfolioContainer">
-        <a
-          href="https://juliakhdavis.github.io/zenTen/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="projectImage"
-            src={zenten}
-            alt="code refactor word mashup"
-          />
-        </a>
-
-        <a
-          href="https://devisehub.herokuapp.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img className="projectImage" src={devise} alt="react logo" />
-        </a>
-
-        <a
-          href="https://support-pandemic-obliteration.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img className="projectImage" src={stop} alt="stop website" />
-        </a>
-
-        <a
-          href="https://thawing-fortress-77603.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="projectImage"
-            src={tech}
-            alt="the word blog coming of of computer hardware"
-          />
-        </a>
-
-        <a
-          href="https://iluton.github.io/Weather-Dashboard/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="projectImage"
-            src={weather}
-            alt="weather dashboard diplaying weather"
-          />
-        </a>
+        <div className="Projects">
+          {projects.map((project, index) => (
+            <Card project={project} key={`project-${index}`} />
+          ))}
+        </div>
       </div>
     </main>
   );
-}
+};
+
+export default Portfolio;
