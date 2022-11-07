@@ -24,7 +24,7 @@ function Nav({ currentPage, handlePageChange }) {
     <header className="navHeader" style={styles.navStyles}>
       <div className="imageName">
         <NavProfile />
-        <h1 style={{marginLeft: "1rem", marginTop: "5rem"}}>Isaac</h1>
+        <h1 style={{marginLeft: "1rem", marginTop: "5rem" }}>Isaac</h1>
         <h1 style={{marginLeft: ".5rem", marginTop: "5rem"}}>Luton</h1>
       </div>
       <div style={styles.navItemStyle}>

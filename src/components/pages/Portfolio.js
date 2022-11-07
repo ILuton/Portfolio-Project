@@ -36,11 +36,24 @@ const Card = ({ project }) => {
           alt={project.name}
         ></img>
       </div>
-      <div className="projectInfo"onMouseLeave={() => setIsFlipped((prev) => !prev)}>
-      <h1>{project.title}</h1>
-      <p>{project.description}</p>
-      <a href={project.liveLink} target="_blank" rel="noreferrer">Project Live Link</a>
-      <a href={project.githubLink} target="_blank" rel="noreferrer">Project Github Link</a>
+      <div
+        className="projectInfo"
+        onMouseLeave={() => setIsFlipped((prev) => !prev)}
+      >
+        <h1 style={{ marginTop: ".1rem" }}>{project.title}</h1>
+        <p className="description">{project.description}</p>
+        <div className="techUsed">
+          <h3>Technologies Used</h3>
+          <ul className="techList">{project.techUsed.map((item, i)=> <li key={"tech_" +i}>{item}</li> )}</ul>
+        </div>
+        <div className="cardLinks">
+          <a href={project.liveLink} target="_blank" rel="noreferrer">
+            Project Live Link
+          </a>
+          <a href={project.githubLink} target="_blank" rel="noreferrer">
+            Project Github Link
+          </a>
+        </div>
       </div>
     </ReactCardFlip>
   );
@@ -49,10 +62,10 @@ const Card = ({ project }) => {
 const Portfolio = () => {
   return (
     <main className="mainPortfolio">
-        <div className="portfolioContainer">
-          {projects.map((project, index) => (
-            <Card project={project} key={`project-${index}`} />
-          ))}
+      <div className="portfolioContainer">
+        {projects.map((project, index) => (
+          <Card project={project} key={`project-${index}`} />
+        ))}
       </div>
     </main>
   );
