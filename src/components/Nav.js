@@ -4,27 +4,28 @@ import Contact from "./Contact";
 function Nav({ currentPage, handlePageChange }) {
   const styles = {
     navStyles: {
-      width: "13%",
-      height: "100vh",
+      width: "100%",
+      height: "13vh",
       display: "flex",
-      flexDirection: "column",
-      backgroundColor: "#999999",
       alignItems: "center",
+      justifyContent: "space-between",
     },
     navItemStyle: {
-      fontSize: "2.5vw",
+      fontSize: "1.8vw",
       display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      marginTop: "1.5rem"
+      justifyContent: "space-between",
+      width: "23%",
+      marginTop: "4rem",
+      marginRight: "10rem"
     },
   };
 
   return (
-    <header className= "navHeader" style={styles.navStyles}>
-      <div>
-      <NavProfile />
-      <Contact></Contact>
+    <header className="navHeader" style={styles.navStyles}>
+      <div className="imageName">
+        <NavProfile />
+        <h1 style={{marginLeft: "1rem", marginTop: "5rem"}}>Isaac</h1>
+        <h1 style={{marginLeft: ".5rem", marginTop: "5rem"}}>Luton</h1>
       </div>
       <div style={styles.navItemStyle}>
         <a
@@ -32,23 +33,24 @@ function Nav({ currentPage, handlePageChange }) {
           href="#about"
           onClick={() => handlePageChange("About")}
         >
-          <strong>About</strong>
+          About
         </a>
         <a
           className="navLink"
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
         >
-          <strong>Projects</strong>
+          Projects
         </a>
         <a
           className="navLink"
           href="#resume"
           onClick={() => handlePageChange("Resume")}
         >
-          <strong>Resume</strong>
+          Resume
         </a>
       </div>
+      <Contact></Contact>
     </header>
   );
 }

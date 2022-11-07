@@ -3,8 +3,8 @@ import resumePdf from "../../images/resume.pdf";
 export default function Resume() {
   const styles = {
     containerStyle: {
-      height: "100vh",
-      width: "87%",
+      height: "87vh",
+      width: "100%",
     },
   };
 

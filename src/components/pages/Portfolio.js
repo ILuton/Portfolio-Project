@@ -37,7 +37,10 @@ const Card = ({ project }) => {
         ></img>
       </div>
       <div className="projectInfo"onMouseLeave={() => setIsFlipped((prev) => !prev)}>
-      <h1>backside</h1>
+      <h1>{project.title}</h1>
+      <p>{project.description}</p>
+      <a href={project.liveLink} target="_blank" rel="noreferrer">Project Live Link</a>
+      <a href={project.githubLink} target="_blank" rel="noreferrer">Project Github Link</a>
       </div>
     </ReactCardFlip>
   );

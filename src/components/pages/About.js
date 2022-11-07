@@ -3,8 +3,8 @@ import sunrise from "../../video/sunrise.mp4"
 export default function About() {
   const styles = {
     containerStyle: {
-      height: "100vh",
-      width: "87%",
+      height: "87vh",
+      width: "100%",
       backgroundColor: "black",
       zIndex: "-2",
       backgroundSize: "cover",
@@ -39,7 +39,6 @@ export default function About() {
         <video  style={styles.videoStyle} src={sunrise} autoPlay loop muted></video>
       </div>
       <div style={styles.fontStyle}>
-        <h1 className="aboutText">Hi! My name is Isaac.</h1>
         <p className="aboutText">
           I am a Seattle-based full stack Web Developer. After graduating from
           Washington State University, I launched my career in healthcare -

@@ -3,48 +3,43 @@
 const projects = [
   {
       name: "zenten",
-      href: "https://juliakhdavis.github.io/zenTen/",
-      description: "",
+      description: "fill in",
       githubLink: "https://github.com/juliakhdavis/zenTen",
-      liveLink: "https://github.com/juliakhdavis/zenTen/deployments/activity_log?environment=github-pages",
-      title:""
+      liveLink: "https://juliakhdavis.github.io/zenTen/",
+      title:"Zenten"
   },
   {
       name: "devise",
-      href: "https://support-pandemic-obliteration.herokuapp.com/",
-      description: "",
+      description: "fill in",
       githubLink: "https://github.com/OwenMG/DEVise",
       liveLink: "https://devisehub.herokuapp.com/",
-      title:""
+      title:"Devise"
 
   },
   {
       name: "tech",
-      href: "https://thawing-fortress-77603.herokuapp.com/",
-      description: "",
+      description: "fill in",
       githubLink: "https://github.com/ILuton/Tech-Blog-",
       liveLink: "https://thawing-fortress-77603.herokuapp.com/",
-      title:""
+      title:"Top Tech Blog"
 
 
   },
   {
       name: "stop",
-      href: "https://iluton.github.io/Weather-Dashboard/",
-      description: "",
+      description: "fill in",
       githubLink: "https://github.com/levisgaragegroupinc/SHEEP",
       liveLink: "https://support-pandemic-obliteration.herokuapp.com/",
-      title:""
+      title:"S.T.O.P."
 
 
   },
   {
     name: "weather",
-    href: "https://devisehub.herokuapp.com",
-    description: "",
+    description: "fill in",
     githubLink: "https://github.com/ILuton/Weather-Dashboard",
     liveLink: "https://iluton.github.io/Weather-Dashboard/",
-    title:""
+    title:"Weather Dashboard"
 
 
 },
