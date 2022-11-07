@@ -10,7 +10,6 @@ function Nav({ currentPage, handlePageChange }) {
       flexDirection: "column",
       backgroundColor: "#999999",
       alignItems: "center",
-      overflow: "auto"
     },
     navItemStyle: {
       fontSize: "2.5vw",

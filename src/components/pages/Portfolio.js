@@ -46,12 +46,10 @@ const Card = ({ project }) => {
 const Portfolio = () => {
   return (
     <main className="mainPortfolio">
-      <div className="portfolioContainer">
-        <div className="Projects">
+        <div className="portfolioContainer">
           {projects.map((project, index) => (
             <Card project={project} key={`project-${index}`} />
           ))}
-        </div>
       </div>
     </main>
   );
