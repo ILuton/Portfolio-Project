@@ -40,12 +40,16 @@ const Card = ({ project }) => {
         className="projectInfo"
         onMouseLeave={() => setIsFlipped((prev) => !prev)}
       >
-        <h1 style={{ marginTop: ".1rem" }}>{project.title}</h1>
+        <h1 className="projectTitle">{project.title}</h1>
         <p className="description">{project.description}</p>
         <div className="techUsed">
           <h3>Technologies Used</h3>
-          <ul className="techList">{project.techUsed.map((item, i)=> <li key={"tech_" +i}>{item}</li> )}</ul>
         </div>
+        <ul className="techList">
+          {project.techUsed.map((item, i) => (
+            <li key={"tech_" + i}>{item}</li>
+          ))}
+        </ul>
         <div className="cardLinks">
           <a href={project.liveLink} target="_blank" rel="noreferrer">
             Project Live Link

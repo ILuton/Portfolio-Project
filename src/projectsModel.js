@@ -3,7 +3,7 @@
 const projects = [
   {
       name: "zenten",
-      description: "Are you stressed out from work, school or maybe a group project? Need some time just for yourself? Just to collect your thoughts and unwind? Then we have the application just for you! Here at Zenten we want to make sure you don’t go crazy. It will only take three clicks to start enjoying your Zen. You can choose from five different themes, and be catered by pictures, music and quotes to help you relax.",
+      description: "Need some time just for yourself? Just to collect your thoughts and unwind? Zen Ten is a relaxation and medatation timer. You can choose from five different themes, and be catered by pictures, music and quotes to help you relax.",
       techUsed: ["Javascript", "CSS", "HTML", "Bulma", "UnsplashAPI"],
       githubLink: "https://github.com/juliakhdavis/zenTen",
       liveLink: "https://juliakhdavis.github.io/zenTen/",
@@ -11,17 +11,15 @@ const projects = [
   },
   {
       name: "devise",
-      description: "fill in",
-      techUsed: [],
-      githubLink: "https://github.com/OwenMG/DEVise",
-      liveLink: "https://devisehub.herokuapp.com/",
+      description: "DEVise is a coding project development hub for teams to gather, share resources, and track progress on software applications. It uses express-session and RESTful api routes to manage user logins and sessions. DEVise also features an interactive drag-n-drop kanban board to keep track of tasks ",
+      techUsed: ["Express.js", "Node.js", "Javascript", "MySql", "HandleBars", "Sequalize", "Bcrypt", "CSS", "HTML"],
       title:"Devise"
 
   },
   {
       name: "tech",
-      description: "fill in",
-      techUsed: [],
+      description: "This project is a build of a potential interactive blogging site. It includes login, logout, and signup functionality. Users can create and comment on other posts. Everything is stored using a MySql database.",
+      techUsed: ["Express.js", "Node.js", "Javascript", "MySql", "HandleBars", "Sequalize", "Bcrypt", "CSS"],
       githubLink: "https://github.com/ILuton/Tech-Blog-",
       liveLink: "https://thawing-fortress-77603.herokuapp.com/",
       title:"Top Tech Blog"
@@ -40,8 +38,8 @@ const projects = [
   },
   {
     name: "weather",
-    description: "fill in",
-    techUsed: [],
+    description: "Built using Open Weather API information. Users can search a city and then have the weather for that city be populated. Features a 5 day forecast as well as interactive images that change depending on the weather. ",
+    techUsed: ["JavaScript", "CSS", "HTML", "Open Weather API"],
     githubLink: "https://github.com/ILuton/Weather-Dashboard",
     liveLink: "https://iluton.github.io/Weather-Dashboard/",
     title:"Weather Dashboard"

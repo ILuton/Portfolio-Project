@@ -14,7 +14,7 @@ const Contact = () => {
       display: "flex",
       justifyContent: "center",
       width: "100%",
-      marginTop: "3rem"
+      marginTop: "4rem"
     },
     emailStyle: {
       display: "flex",
