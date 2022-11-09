@@ -15,7 +15,7 @@ function Nav({ currentPage, handlePageChange }) {
       display: "flex",
       justifyContent: "space-between",
       width: "23%",
-      marginTop: "5rem",
+      marginTop: "4rem",
       marginRight: "10rem"
     },
   };
@@ -24,8 +24,8 @@ function Nav({ currentPage, handlePageChange }) {
     <header className="navHeader" style={styles.navStyles}>
       <div className="imageName">
         <NavProfile />
-        <h1 style={{marginLeft: "1rem", marginTop: "6rem", fontSize: "2.5rem" }}>Isaac</h1>
-        <h1 style={{marginLeft: ".5rem", marginTop: "6rem", fontSize: "2.5em"}}>Luton</h1>
+        <h1 style={{marginLeft: "1rem", marginTop: "5.5rem",fontSize: "2.5rem" }}>Isaac</h1>
+        <h1 style={{marginLeft: ".5rem", marginTop: "5.5rem",fontSize: "2.5em"}}>Luton</h1>
       </div>
       <div style={styles.navItemStyle}>
         <a

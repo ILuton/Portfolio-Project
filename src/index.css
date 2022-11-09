@@ -97,27 +97,23 @@ main img {
   font-size: 2.2vw;
   display: flex;
   justify-content: center;
-  margin-bottom: 4rem;
 }
 
 .description {
-  height: 20%;
   width: 90%;
   font-size: 1.3vw;
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
 }
 
 .techUsed {
-  height: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 80%;
   font-size: 1.3vw;
-
+  margin-bottom: -1rem;
 }
 
 .techList {
@@ -125,9 +121,10 @@ main img {
   flex-direction: column;
   flex-wrap: wrap;
   list-style-position: inside;
-  height: 20%;
   font-size: 1.2vw;
   width: 80%;
+  height: 20%;
+
 }
 
 .socialLinks:hover {
