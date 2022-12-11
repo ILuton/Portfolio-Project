@@ -11,7 +11,7 @@ export default function About() {
       overflow: "auto",
     },
     fontStyle: {
-      margin: "2rem",
+      margin: "3rem",
       fontSize: "1.5vw",
     },
     videoDiv: {
