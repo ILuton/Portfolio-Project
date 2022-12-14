@@ -13,6 +13,7 @@ const projects = [
       name: "devise",
       description: "DEVise is a coding project development hub for teams to gather, share resources, and track progress on software applications. It uses express-session and RESTful api routes to manage user logins and sessions. DEVise also features an interactive drag-n-drop kanban board to keep track of tasks ",
       techUsed: ["Express.js", "Node.js", "Javascript", "MySql", "HandleBars", "Sequalize", "Bcrypt", "CSS", "HTML"],
+      liveLink: "https://devise.herokuapp.com/",
       title:"Devise"
 
   },
