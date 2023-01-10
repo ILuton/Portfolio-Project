@@ -32,7 +32,7 @@ const projects = [
       description: "The last couple of years of living with the threat of COVID and other diseases have heightened our awareness of the need for funding for medical research. This site is designed to give users the opportunity to contribute to research projects to help further learning and research.",
       techUsed: ["Express.js", "Heroku", "React", "Apollo", "GraphQL", "Node.js", "MongoDB", "Mongoose", "JSON Web Tokens", "Stripe", "CSS", "MVC design"],
       githubLink: "https://github.com/levisgaragegroupinc/SHEEP",
-      liveLink: "https://support-pandemic-obliteration.herokuapp.com/",
+      liveLink: "https://stop.herokuapp.com/",
       title:"S.T.O.P."
 
 
