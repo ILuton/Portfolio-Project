@@ -1,10 +1,9 @@
-import sunrise from "../../video/sunrise.mp4"
 
 export default function About() {
   const styles = {
     containerStyle: {
       height: "100vh",
-      width: "87%",
+      width: "100%",
       backgroundColor: "black",
       zIndex: "-2",
       backgroundSize: "cover",
@@ -35,9 +34,6 @@ export default function About() {
 
   return (
     <section className="aboutCon" style={styles.containerStyle}>
-      <div style={styles.videoDiv}>
-        <video  style={styles.videoStyle} src={sunrise} autoPlay loop muted></video>
-      </div>
       <div style={styles.fontStyle}>
         <h1 className="aboutText">Hi! My name is Isaac.</h1>
         <p className="aboutText">

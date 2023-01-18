@@ -4,19 +4,18 @@ import profilepic from "../images/profilepic.jpg";
 const NavProfile = () => {
   const styles = {
     imgStyle: {
-      width: "10vw",
-      height: "17vw",
-      borderRadius: "1rem",
+      width: "80%",
+      height: "auto",
+      borderRadius: "2rem",
       border: ".1rem solid black",
-      marginTop: ".5rem"
+      marginTop: "2rem"
     },
     containerStyle: {
       display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
       alignItems: "center",
-      width: "100%",
-      height: "70%"
+      justifyContent: "center",
+      width: "80%",
+      height: "100%",
     },
   };
   return (

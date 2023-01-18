@@ -1,29 +1,37 @@
 import NavProfile from "./NavProfile";
 import Contact from "./Contact";
 
-function Nav({ currentPage, handlePageChange }) {
+function Nav() {
   const styles = {
     navStyles: {
-      width: "13%",
-      height: "100vh",
+      width: "100%",
+      height: "80%",
       display: "flex",
       flexDirection: "column",
       backgroundColor: "#999999",
       alignItems: "center",
-      overflow: "auto"
     },
     navItemStyle: {
-      fontSize: "2.2vw",
+      fontSize: "7vw",
       display: "flex",
-      flexDirection: "column",
       alignItems: "center",
-      marginTop: "1.5rem"
+      justifyContent: "space-between",
+      width: "100%",
+      justifySelf: "end",
+      height: "20%"
     },
+    imageContactStyles: {
+      display: "flex",
+      alignItems: "center",
+      flexDirection: "column",
+      width: "100%",
+      height: "80%",
+    }
   };
 
   return (
     <header className= "navHeader" style={styles.navStyles}>
-      <div>
+      <div style={ styles.imageContactStyles}>
       <NavProfile />
       <Contact></Contact>
       </div>
@@ -31,21 +39,18 @@ function Nav({ currentPage, handlePageChange }) {
         <a
           className="navLink"
           href="#about"
-          onClick={() => handlePageChange("About")}
         >
           <strong>About</strong>
         </a>
         <a
           className="navLink"
           href="#portfolio"
-          onClick={() => handlePageChange("Portfolio")}
         >
           <strong>Projects</strong>
         </a>
         <a
           className="navLink"
           href="#resume"
-          onClick={() => handlePageChange("Resume")}
         >
           <strong>Resume</strong>
         </a>

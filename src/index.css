@@ -18,10 +18,13 @@ a:active {
   cursor: pointer;
 }
 
-i {
-  font-size: 50px;
-  margin: 5px;
+.main {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100vw;
 }
+
 
 .aboutText {
   animation: color-change 41s infinite;
@@ -41,6 +44,7 @@ i {
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: .8rem;
+  padding: 1rem;
 }
 
 .navLink:before {
@@ -107,34 +111,8 @@ main img:hover {
   margin-bottom: 0.1rem;
 }
 
-.main {
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-}
 
 
-@media screen and (min-device-width: 0px) and (max-device-width: 425px) { 
 
-  .main {
-    flex-direction: column;
-  }
 
-  .navHeader {
-    width: 100% !important;
-  }
-
-  .resumeCon{
-    width: 100% !important;
-  }
-
-  .aboutCon{
-    width: 100% !important;
-  }
-
-  .mainPortfolio {
-    width: 100%;
-  }
-
-}
 
